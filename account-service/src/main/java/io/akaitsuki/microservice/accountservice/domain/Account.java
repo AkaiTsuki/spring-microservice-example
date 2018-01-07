@@ -1,5 +1,7 @@
 package io.akaitsuki.microservice.accountservice.domain;
 
+import io.akaitsuki.microservice.accountservice.client.userservice.UserDTO;
+
 import java.util.Date;
 
 /**
@@ -8,6 +10,15 @@ import java.util.Date;
 public class Account {
     private String accountId;
     private Date createdDate;
+    private UserDTO user;
+
+    public UserDTO getUser() {
+        return user;
+    }
+
+    public void setUser(UserDTO user) {
+        this.user = user;
+    }
 
     public String getAccountId() {
         return accountId;
