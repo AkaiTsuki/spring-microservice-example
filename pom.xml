@@ -21,6 +21,10 @@
         <version>1.5.9.RELEASE</version>
     </parent>
 
+    <properties>
+        <swagger.version>2.6.1</swagger.version>
+    </properties>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -46,6 +50,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-model</artifactId>
+            <version>3.0.2</version>
         </dependency>
     </dependencies>
 
