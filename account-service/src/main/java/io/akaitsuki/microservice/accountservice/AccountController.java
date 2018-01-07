@@ -13,7 +13,7 @@ import java.util.Date;
 @RestController
 public class AccountController {
 
-    @GetMapping("/account/{id}")
+    @GetMapping("/accounts/{id}")
     public Account getAccount(@PathVariable String id) {
         Account account = new Account();
         account.setAccountId(id);

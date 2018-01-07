@@ -1,0 +1,14 @@
+server:
+  port: 8080
+zuul:
+  routes:
+    account:
+      path: /accountservice/**
+      serviceId: AccountService
+    user:
+      path: /userservice/**
+      serviceId: UserService
+
+ribbon:
+  eureka:
+    enabled: true
