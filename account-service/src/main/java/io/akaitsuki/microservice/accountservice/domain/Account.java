@@ -1,4 +1,4 @@
-package io.akaitsuki.microservice.account.domain;
+package io.akaitsuki.microservice.accountservice.domain;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package io.akaitsuki.microservice.account;
+package io.akaitsuki.microservice.accountservice;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;

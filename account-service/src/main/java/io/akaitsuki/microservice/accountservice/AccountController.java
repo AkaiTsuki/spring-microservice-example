@@ -1,6 +1,6 @@
-package io.akaitsuki.microservice.account;
+package io.akaitsuki.microservice.accountservice;
 
-import io.akaitsuki.microservice.account.domain.Account;
+import io.akaitsuki.microservice.accountservice.domain.Account;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
