@@ -12,3 +12,7 @@ zuul:
 ribbon:
   eureka:
     enabled: true
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8500/eureka/
