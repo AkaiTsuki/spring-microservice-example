@@ -1,8 +1,14 @@
 server:
   port: 8500
+
 eureka:
+  instance:
+    hostname: localhost
   client:
     register-with-eureka: false
     fetch-registry: false
+    # register to itself in standalone mode, if in production with 2 nodes, register to each other
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
   environment: dev
   datacenter: DEV
